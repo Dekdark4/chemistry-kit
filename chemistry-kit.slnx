@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="chemistry-kit.vcxproj" />
+  <Project Path="chemistry-kit.vcxproj" Id="dd57b6d9-49fb-47b8-95d8-e65faac73a3a" />
 </Solution>
