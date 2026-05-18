@@ -1,7 +1,28 @@
 {
+  "metadata": {
+    "source": "IUPAC 4 May 2022",
+    "units": {
+      "mass_ru": "а.е.м.",
+      "mass_en": "u",
+      "radius_ru": "пм",
+      "radius_en": "pm",
+      "energy_ru": "кДж/моль",
+      "energy_en": "kJ/mol",
+      "temperature_ru": "К",
+      "temperature_en": "K",
+      "density_ru": "г/см3",
+      "density_en": "g/cm3"
+    }
+  },
   "elements": [
     {
-      
+      "atomic_number": 1,
+      "symbol": "H",
+      "name_ru": "Водород",
+      "name_en": "Hydrogen",
+      "atomic_mass": 1.0080,
+      "period": 1,
+      "group": 1
     }
   ]
 }
