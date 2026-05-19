@@ -22,9 +22,9 @@ namespace Elements {
 			symbol{ std::move(symbol) },
 			name_en{ std::move(name_en) },
 			name_ru{ std::move(name_ru) },
-			atomic_mass( atomic_mass ),
-			period(period ),
-			group (group) {};
+			atomic_mass{ atomic_mass },
+			period{period},
+			group{ group } {};
 
 		// МЕТОДЫ
 		void print();
