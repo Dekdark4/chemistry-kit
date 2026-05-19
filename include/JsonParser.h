@@ -1,7 +1,11 @@
 ﻿#pragma once
-class JsonParser
+
+namespace JsonParser
 {
-private:
-public:
-	JsonParser() = default;
-};
+	class JsonParser
+	{
+	private:
+	public:
+		JsonParser() = default;
+	};
+}
