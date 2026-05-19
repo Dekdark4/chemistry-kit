@@ -22,9 +22,15 @@
     <ClCompile Include="src\Element.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\JsonParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Element.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JsonParser.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
