@@ -7,7 +7,7 @@ namespace JsonParser
 	class JsonParser
 	{
 	private:
-		std::string text;
+		std::string text{};
 	public:
 		JsonParser() = default;
 		JsonParser(std::string text) : text{ std::move(text) } {};
