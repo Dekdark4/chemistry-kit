@@ -1,13 +1,21 @@
-﻿#include "StringParser.h"
+﻿#pragma once
+#include <optional>
+#include <string>
 #include <sstream>
 #include <limits>
+
+namespace Parser
+{
+	template<typename T>
+	std::optional<T> try_parse_number(const std::string& input);
+}
 
 template<typename T>
 std::optional<T> Parser::try_parse_number(const std::string& input)
 {
 	if (input.empty())
 		return std::nullopt;
-	
+
 	std::istringstream iss{ input };
 	long long temp{};
 	if (!(iss >> temp))

@@ -33,6 +33,12 @@
     <ClInclude Include="include\JsonParser.h">
       <Filter>include</Filter>
     </ClInclude>
+<<<<<<< Updated upstream
+=======
+    <ClInclude Include="include\StringParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="data\periodic-table.json">
