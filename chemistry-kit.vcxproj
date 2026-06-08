@@ -148,6 +148,9 @@
     <ClInclude Include="include\Element.h" />
     <ClInclude Include="include\JsonParser.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="data\periodic-table.json" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

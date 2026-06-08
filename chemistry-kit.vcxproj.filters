@@ -34,4 +34,9 @@
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="data\periodic-table.json">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
 </Project>
