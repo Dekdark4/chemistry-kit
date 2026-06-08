@@ -143,10 +143,12 @@
     <ClCompile Include="src\Element.cpp" />
     <ClCompile Include="src\JsonParser.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="StringParser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Element.h" />
     <ClInclude Include="include\JsonParser.h" />
+    <ClInclude Include="StringParser.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="data\periodic-table.json" />
